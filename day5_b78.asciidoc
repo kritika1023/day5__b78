@@ -1,0 +1,275 @@
++*In[ ]:*+
+[source, ipython3]
+----
+oraganising the list datatypes 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+names=['kritika','bubu','mehak','anshu','dev',]
+print(names)   
+----
+
+
++*Out[2]:*+
+----
+['kritika', 'bubu', 'mehak', 'anshu', 'dev']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+type(names)
+----
+
+
++*Out[4]:*+
+----list----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#req: i want to organise the list in the alphabetic orderr a-z 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+temp approch ---> sorted---> have the orginal oder of the  last  
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+print(sorted(names))
+----
+
+
++*Out[6]:*+
+----
+['anshu', 'bubu', 'dev', 'kritika', 'mehak']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+reverse the oder 
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+names.reverse()
+print(names)
+----
+
+
++*Out[7]:*+
+----
+['dev', 'anshu', 'mehak', 'bubu', 'kritika']
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+len(names)
+----
+
+
++*Out[9]:*+
+----5----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+slicing:
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+students=['bubu','kritika','mehak','komal','khushi']
+print(students)
+----
+
+
++*Out[11]:*+
+----
+['bubu', 'kritika', 'mehak', 'komal', 'khushi']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+syntax of slicing
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+[starvalue:stopvalue:stepvalue]
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#req i want to include bubu and kritika in the slice
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+print(students[0:2])
+----
+
+
++*Out[12]:*+
+----
+['bubu', 'kritika']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[13]:*+
+[source, ipython3]
+----
+print(students[2:4])
+----
+
+
++*Out[13]:*+
+----
+['mehak', 'komal']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+print(students[0:7:2])
+----
+
+
++*Out[15]:*+
+----
+['bubu', 'mehak', 'khushi']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
